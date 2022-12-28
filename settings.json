@@ -1,0 +1,38 @@
+{
+    
+    "image_names": [
+        "禁止任何車輛進入", 
+        "禁止停車",
+        "禁止迴車",
+        "危險",
+        "慢行"
+    ],
+    "image_dataset": [
+        "stop/images", 
+        "noparking/images",
+        "uturn/images",
+        "danger/images",
+        "slow/images"
+    ],
+    "image_annotations": [
+        "stop/images/stop_annotations.xml", 
+        "noparking/images/no_parking_annotations.xml",
+        "uturn/images/uturn_annotations.xml",
+        "danger/images/danger_annotations.xml",
+        "slow/images/slow_annotations.xml"
+    ],
+    "image_detectors": [
+        "stop/stop_detector.svm", 
+        "noparking/noparking_detector.svm",
+        "uturn/uturn_detector.svm",
+        "danger/danger_detector.svm",
+        "slow/slow_detector.svm"
+    ],
+    "test_images": "test",
+
+
+    "C": 5.0,
+    "num_threads": 4,
+    "epsilon": 0.001
+
+}
