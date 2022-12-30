@@ -16,11 +16,6 @@
 			<label>unlabelled</label>
 		</box>
 	</image>
-	<image file='05.jpg'>
-		<box top='32' left='130' width='146' height='136'>
-			<label>unlabelled</label>
-		</box>
-	</image>
 	<image file='06.jpg'>
 		<box top='191' left='224' width='63' height='61'>
 			<label>unlabelled</label>
