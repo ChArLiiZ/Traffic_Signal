@@ -39,7 +39,7 @@
     "num_threads": 4,
     "epsilon": 0.001,
 
-    "test_video": "test/testvideo.mp4",
+    "test_video": "test/test_video.mp4",
     "output_video": "outputvideo.mp4"
 
 }

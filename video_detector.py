@@ -13,6 +13,7 @@ fourcc = cv2.VideoWriter_fourcc(*'MP4V')
 out = cv2.VideoWriter(settings["output_video"], fourcc, 30, (width, height))
 while(video.isOpened()):
     ret, frame = video.read()
+    frame = cv2.flip(frame, -1)
     out.write(detect(frame))
 video.release()
 out.release()
